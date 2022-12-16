@@ -1,0 +1,13 @@
+2022/12/08-21:13:12.911 2ff4 Reusing MANIFEST C:\Users\jesus\AppData\Local\Temp\flutter_tools.9a79492d\flutter_tools_chrome_device.7c1bf50b\Default\Site Characteristics Database/MANIFEST-000001
+2022/12/08-21:13:12.912 2ff4 Recovering log #3
+2022/12/08-21:13:12.912 2ff4 Level-0 table #13: started
+2022/12/08-21:13:13.043 2ff4 Level-0 table #13: 272 bytes OK
+2022/12/08-21:13:13.043 2ff4 Recovering log #6
+2022/12/08-21:13:13.043 2ff4 Level-0 table #14: started
+2022/12/08-21:13:13.122 2ff4 Level-0 table #14: 165 bytes OK
+2022/12/08-21:13:13.122 2ff4 Recovering log #10
+2022/12/08-21:13:13.123 2ff4 Reusing old log C:\Users\jesus\AppData\Local\Temp\flutter_tools.9a79492d\flutter_tools_chrome_device.7c1bf50b\Default\Site Characteristics Database/000010.log 
+2022/12/08-21:13:13.241 2ff4 Delete type=0 #3
+2022/12/08-21:13:13.241 2ff4 Delete type=2 #4
+2022/12/08-21:13:13.241 2ff4 Delete type=2 #6
+2022/12/08-21:13:13.241 2ff4 Delete type=0 #6
