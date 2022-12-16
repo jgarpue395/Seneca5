@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_phone_direct_caller/flutter_phone_direct_caller.dart';
 import 'package:open_mail_app/open_mail_app.dart';
 import 'package:provider/provider.dart';
-import 'package:seneca/models/user.dart';
+import 'package:seneca/models/usuario.dart';
 import '../providers/user_provider.dart';
 
 class PersonalScreen extends StatelessWidget {
@@ -11,7 +11,7 @@ class PersonalScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final userProvider = Provider.of<UserProvider>(context);
-    List<User> userList = userProvider.userList;
+    List<Usuario> userList = userProvider.userList;
 
     return Scaffold(
       appBar: AppBar(
@@ -31,7 +31,7 @@ class PersonalScreen extends StatelessWidget {
     );
   }
 
-  void informacionPersonal(BuildContext context, User user) {
+  void informacionPersonal(BuildContext context, Usuario user) {
     showDialog(
       context: context,
       builder: (buildcontext) {

@@ -1,3 +1,4 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:seneca/providers/alumnado_provider.dart';
 import 'package:seneca/providers/user_provider.dart';
@@ -5,7 +6,15 @@ import 'package:seneca/router/app_routes.dart';
 import 'package:seneca/theme/app_theme.dart';
 import 'package:provider/provider.dart';
 
-void main() => runApp(const AppState());
+import 'firebase_options.dart';
+
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
+  runApp(const AppState());
+}
 
 class AppState extends StatelessWidget
 {

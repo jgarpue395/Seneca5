@@ -2,11 +2,11 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
-import 'package:seneca/models/user.dart';
+import 'package:seneca/models/usuario.dart';
 
 class UserProvider extends ChangeNotifier {
 
-  List<User> userList = [];
+  List<Usuario> userList = [];
 
   UserProvider() {
     getUser();
@@ -24,7 +24,7 @@ class UserProvider extends ChangeNotifier {
 
     for (dynamic data in jsonData)
     {
-      User usuario = User(
+      Usuario usuario = Usuario(
         id: data["id"], 
         usuario: data["usuario"],
         clave: data["clave"],
